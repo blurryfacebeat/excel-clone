@@ -1,0 +1,24 @@
+{
+  "name": "excel_clone",
+  "version": "1.0.0",
+  "description": "Excel clone on JavaScript",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blurryfacebeat/excel-clone.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "js",
+    "excel"
+  ],
+  "author": "blurryfacebeat <blurryfacebeat@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blurryfacebeat/excel-clone/issues"
+  },
+  "homepage": "https://github.com/blurryfacebeat/excel-clone#readme"
+}
