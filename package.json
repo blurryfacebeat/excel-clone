@@ -4,7 +4,9 @@
   "description": "Excel clone on JavaScript",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/blurryfacebeat/excel-clone/issues"
   },
-  "homepage": "https://github.com/blurryfacebeat/excel-clone#readme"
+  "homepage": "https://github.com/blurryfacebeat/excel-clone#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }
