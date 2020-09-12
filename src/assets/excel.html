@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Excel Clone</title>
+</head>
+<body>
+    <div id="app" class="container">
+        <div class="excel">
+            <div class="excel__header">
+                <input type="text" class="excel__title-input" value="New table">
+                <div>
+                    <div class="button excel__title-button_delete">
+                        <i class="material-icons">
+                            delete
+                        </i>
+                    </div>
+
+                    <div class="button excel__title-button_exit">
+                        <i class="material-icons">
+                            exit_to_app
+                        </i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="excel__toolbar">
+                <div class="button">
+                    <i class="material-icons">
+                        format_align_left
+                    </i>
+                </div>
+
+                <div class="button">
+                    <i class="material-icons">
+                        format_align_center
+                    </i>
+                </div>
+
+                <div class="button">
+                    <i class="material-icons">
+                        format_align_right
+                    </i>
+                </div>
+
+                <div class="button">
+                    <i class="material-icons">
+                        format_bold
+                    </i>
+                </div>
+
+                <div class="button">
+                    <i class="material-icons">
+                        format_italic
+                    </i>
+                </div>
+
+                <div class="button">
+                    <i class="material-icons">
+                        format_underlined
+                    </i>
+                </div>
+            </div>
+
+            <div class="excel__formula">
+                <div class="excel__formula-info">ƒϰ</div>
+                <div class="excel__formula-input" contenteditable spellcheck="false"></div>
+            </div>
+
+            <div class="excel__table">
+                <div class="excel__table-row">
+                    <div class="row-info"></div>
+
+                    <div class="row-data">
+                        <div class="data-column">
+                            A
+                        </div>
+                        <div class="data-column">
+                            B
+                        </div>
+                        <div class="data-column">
+                            C
+                        </div>
+                    </div>
+                </div>
+
+                <div class="excel__table-row">
+                    <div class="row-info">
+                        1
+                    </div>
+
+                    <div class="row-data">
+                        <div class="row-cell selected" contenteditable spellcheck="false">A1</div>
+                        <div class="row-cell" contenteditable spellcheck="false">B2</div>
+                        <div class="row-cell" contenteditable spellcheck="false">C3</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

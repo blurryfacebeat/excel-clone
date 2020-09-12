@@ -88,6 +88,7 @@ module.exports = {
                 // Тестирует расширения, либо sass, либо scss
                 test: /\.s[ac]ss$/i,
                 use: [
+                    'style-loader',
                     {
                         loader: MiniCssExtractPlugin.loader,
                         options: {
@@ -96,6 +97,17 @@ module.exports = {
                         }
                     },
                     'css-loader',
+                    // Используем autoprefixer
+                    {
+                        loader: 'postcss-loader',
+                        options: {
+                            postcssOptions: {
+                                plugins: [
+                                    require('autoprefixer')
+                                ]
+                            }
+                        }
+                    },
                     'sass-loader'
                 ]
             },
